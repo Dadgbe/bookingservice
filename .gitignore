@@ -1,0 +1,15 @@
+# Visual Studio files
+.vs/
+*.opendb
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.log
+
+# Alembic cache
+migrations/versions/*.pyc
