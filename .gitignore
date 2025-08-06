@@ -1,15 +1,62 @@
-# Visual Studio files
-.vs/
-*.opendb
-
-# Python
-venv/
+# Python cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Alembic migrations cache
+app/migrations/__pycache__/
+app/migrations/versions/__pycache__/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# VSCode settings
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Logs
 *.log
 
-# Alembic cache
-migrations/versions/*.pyc
+# Environment variables files
+.env
+.env.*
+
+# SQLite database files (если используешь, иначе можешь убрать)
+*.sqlite3
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore *.pyc files anywhere
+*.pyc
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# IPython/Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.cache/
+
+# Optional: if you use Docker
+docker-compose.override.yml
